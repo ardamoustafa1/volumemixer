@@ -79,7 +79,5 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--line);
 footer a { color: var(--muted); }
 
 /* İki dil, betik yok: varsayılan Türkçe; adres #en ile bitiyorsa İngilizce. */
-.lang-en { display: none; }
-body:has(#en:target) .lang-tr { display: none; }
-body:has(#en:target) .lang-en { display: block; }
+.lang-en-only { display: block; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
